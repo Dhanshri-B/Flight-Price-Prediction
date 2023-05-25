@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Flight Price Prediction using Machine Learning</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            
+            <a href="indexx.html"><img src="C:\Users\Admin\Desktop\Sem\images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="indexx.html">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="index.html">PREDICT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+        <h1>About Our Project</h1>
+    </section>
+
+    <!---------about us content------>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Abstract</h1>
+                <p>Machine learning (ML) is a sort of artificial intelligence that allows software applications to improve its accuracy at predicting values even if your software application is not explicitly programmed.Machine learning algorithm use data as input to predict new output values. People plan a journey by booking a plane ticket at a higher price without knowing that for the same day other the airlines offer the ticket for a lower price which will save money and time. In addition, ticket prices vary according to various factors such as the winter season, the summer season and the festival. Ticket prices also fluctuate by day and by night and according to the number of tickets available.This system will consider some features like departure time, arrival time and the numbers of days remaining for the departure and based on time it will give the best price to purchase a ticket.This system is going to provide solutions by using Machine learning models that will predict the price of the ticket using Machine Learning techniques such as Linear Regression, Random Forest that will be helpful for the passengers whether to buy a ticket or not at the affordable rate.</p>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+
+    </section>
+    
+   
+    
+
+
+
+
+
+
+<!---------Java Script for Toggle Menu--------------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
